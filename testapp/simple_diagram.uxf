@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3.0">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>240</x>
+      <y>160</y>
+      <w>210</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>Bilski.Kajetan.testapp::App
+--
+/-adder: Adder/
+--
+/+main(String[] args): void/
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>240</x>
+      <y>310</y>
+      <w>210</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>Bilski.Kajetan.testapp::Adder
+--
++add(int a,int b): int</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>330</x>
+      <y>230</y>
+      <w>40</w>
+      <h>100</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+m1=1</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;80.0</additional_attributes>
+  </element>
+</diagram>
